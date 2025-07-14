@@ -1,0 +1,13 @@
+# 📦 No subir las dependencias
+node_modules/
+
+# 🔐 No subir las variables de entorno
+.env
+
+# ⚙️ Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🧪 Archivos de pruebas temporales
+*.log
+*.test.js
