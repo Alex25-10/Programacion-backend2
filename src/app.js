@@ -2,7 +2,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import passport from 'passport';
-
 import initializePassport from './config/passport.js';
 import userRouter from './routes/userRouter.js'; 
 
