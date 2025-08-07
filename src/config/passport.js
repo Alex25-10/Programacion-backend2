@@ -1,7 +1,7 @@
 import passport from 'passport';
 import { Strategy as LocalStrategy } from 'passport-local';
 import { Strategy as JWTStrategy, ExtractJwt } from 'passport-jwt';
-import UserModel from '../models/userModel.js';
+import UserModel from '../dao/models/userModel.js';
 import { isValidPassword } from '../utils/encrypt.js';
 
 const initializePassport = () => {
